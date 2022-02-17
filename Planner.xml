@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?> <!--This tells about the version of xml file-->
+<Planner> <!--the root tag-->
+  <February> <!--this is a child of the Planner-->
+    <Week>First week</Week>
+    <monday>Choose a template for the project</monday>
+    <tuesday>Take English class</tuesday>
+    <wednesday>Read about callback function</wednesday>
+    <thursday>Rest</thursday>
+    <friday>Do homework for English class</friday>
+    <saturday>Develop the project</saturday>
+    <sunday>Develop the project</sunday>
+  </February>
+  <February>
+    <Week>Second week</Week>
+    <monday2>Finish the first page</monday2>
+    <tuesday2>Take English class</tuesday2>
+    <wednesday2>Read about function declaration &amp; function expression</wednesday2>
+    <thursday2>Rest</thursday2>
+    <friday2>Do homework for English class</friday2>
+    <saturday2>Develop the project</saturday2>
+    <sunday2>Develop the project</sunday2>
+  </February>
+  <February>
+    <Week>Third week</Week>
+    <monday3>Finish the second page</monday3>
+    <tuesday3>Take English class</tuesday3>
+    <wednesday3>Implement the burger menu in the project</wednesday3>
+    <thursday3>Rest</thursday3>
+    <friday3>Do homework for English class</friday3>
+    <saturday3>Develop the project</saturday3>
+    <sunday3>Develop the project</sunday3>
+  </February>
+  <February>
+    <Week>Fourth week</Week>
+    <monday4>Finish the third page</monday4>
+    <tuesday4>Take English class</tuesday4>
+    <wednesday4>Develop the project</wednesday4>
+    <thursday4>Rest</thursday4>
+    <friday4>Do homework for English class</friday4>
+    <saturday4>Develop the project</saturday4>
+    <sunday4>Develop the project</sunday4>
+  </February>
+  <February>
+    <Week>Fifth week</Week>
+    <monday5>Check and implement some details in the project</monday5>
+    <tuesday5>Take English class</tuesday5>
+    <wednesday5>Develop the project</wednesday5>
+    <thursday5>Rest</thursday5>
+    <friday5>Do homework for English class</friday5>
+    <saturday5>Develop the project</saturday5>
+    <sunday5>Develop the project</sunday5>
+  </February>
+</Planner>

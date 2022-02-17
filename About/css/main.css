@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #122947;
+    margin: 0 auto;
+    font-family: "Raleway", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #122947;
+}
+
+li {
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul {
+    padding: 0;
+    margin: 0;
+} 
+
+.container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.header, .footer {
+    background-color: rgb(190, 225, 226);
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.header__inner h1 {
+    font-size: 53px;
+}
+
+.header__img {
+    width: 180px;
+    height: 90px;
+    padding-right: 30px;
+}
+
+.wrapper__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aside {
+    width: 270px;
+}
+
+.aside__nav {
+    padding: 20px 0;
+    font-size: 28px;
+}
+
+.aside__nav li {
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+
+.aside__nav li:hover {
+    text-decoration: underline;
+}
+
+.aside__nav li:first-child {
+    padding-top: 0;
+}
+
+.main {
+    width: 870px;
+}
+
+.wrapper h1 {
+    margin-left: 15px;
+    padding-top: 30px;
+}
+
+.footer {
+    padding: 30px 0;
+}
+
+.footer p {
+    padding-top: 10px;
+}
+
+.about {
+    padding: 60px 0;
+}
+
+.about__from {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.about__title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+/*form*/
+
+.submit__item {
+    height: 43px;
+    width: 100%;
+    border: 1px solid #e5e5e5;
+    margin-bottom: 19px;
+    padding: 14px 20px;
+}
+
+.submit textarea {
+    resize: none;
+    height: 200px;
+}
+
+.submit__item::placeholder {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: #6a6a6b;
+    font-weight: 400;
+}
+
+.submit__item:focus {
+    outline: 0;
+    border: 1px solid #03ded0;
+}
+
+.submit__btn {
+    padding: 12px 31px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #03ded0;
+    font-weight: 700;
+    padding: 11px 14px;
+    border: 1px solid #03ded0;
+    border-radius: 2px;
+    font-family: 'Raleway', sans-serif;
+    display: inline-block;
+    transition: color .2s linear,border .2s linear;
+    cursor: pointer;
+}
+
+.submit__btn:hover {
+    color: #413d4b;
+    border: 1px solid #413d4b;
+}
