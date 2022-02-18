@@ -13,7 +13,9 @@
     <header class="header">
         <div class="container">
             <div class="header__inner">
-                <img class="header__img" src="/Schedule/img/notebook.png" alt="logo">
+                <a href="/home/index.html">
+                    <img class="header__img" src="/Schedule/img/notebook.png" alt="logo">
+                </a>
                 <h1>Make your daily planner in the best possible way!</h1>
             </div>
         </div>
@@ -30,12 +32,12 @@
                             <li>
                                 <a href="/Schedule/index.html" target="_blank">schedule</a>
                             </li>
-                            <li><a href="/About/index.html" target="_blank">about</a></li>
+                            <li><a class="active" href="/About/index.html" target="_blank">about</a></li>
                         </ul>
                     </nav>
                 </aside>
                 <main class="about">
-                    
+
                     <p class="about__title">Leave your comment below!</p>
                     <form class="submit" action="#" method="post">
                         <input class="submit__item" tabindex="1" type="text" name="name" placeholder="Name" required>
@@ -43,7 +45,7 @@
                         <input class="submit__item" tabindex="3" type="text" name="name" placeholder="Subject" required>
                         <textarea class="submit__item" tabindex="4" placeholder="Your Massage" name="text" required
                             style="margin: 0px 0px 19px 0px;"></textarea>
-                            <div class="submit__btn btn">submit</div>
+                        <div class="submit__btn btn">submit</div>
                     </form>
                     <p class="about__from">Made by: <span id="author"></span></p>
                 </main>
@@ -89,7 +91,7 @@
     </footer>
 
     <script>
-         /*from xml into html file*/
+        /*from xml into html file*/
         if (window.XMLHttpRequest) {//code for IE7+, firefox, chrome, opera, safari
             xmlhttp = new XMLHttpRequest();
         }
@@ -106,7 +108,7 @@
     </script>
 
     <script>
-         /*from xml into html file*/
+        /*from xml into html file*/
         if (window.XMLHttpRequest) {//code for IE7+, firefox, chrome, opera, safari
             xmlhttp = new XMLHttpRequest();
         }
